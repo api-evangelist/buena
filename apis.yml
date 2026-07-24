@@ -1,8 +1,26 @@
 aid: buena
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buena.png
 name: Buena
-description: 'Buena is a company surfaced as a portfolio company of eqt-ventures, gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: housing. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Buena (Buena GmbH) is a Berlin-based modern property management company
+  serving real estate owners across Germany, managing over 70,000 units. It provides
+  WEG (condominium / Wohnungseigentümergemeinschaft) management, rental property management
+  (Mietverwaltung), and property-management succession (Nachfolge) for owners seeking
+  an alternative to conventional, reactive administrators. Buena positions itself as
+  a technology-forward, proactive Hausverwaltung. It was surfaced as a portfolio company
+  of EQT Ventures and GV and added to the API Evangelist network. As of this enrichment
+  pass Buena publishes no public API, developer portal, SDK, or technical documentation
+  — this profile captures verified company identity and public web properties only.'
 url: https://raw.githubusercontent.com/api-evangelist/buena/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,27 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: Buena GmbH
+x-registered-address: Immanuelkirchstraße 26, 10405 Berlin, Germany
+x-commercial-register: HRB 175711 (Amtsgericht Charlottenburg-Berlin)
+x-vat-id: DE306353833
+x-managing-directors:
+- Matthias Möller
+- Moritz von Hase
+- Din Bisevac
+- Jan Mundin
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Housing
+- Property Management
+- Real Estate
+- PropTech
+- Germany
+- WEG Verwaltung
+- Rental Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +59,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.buena.com/
+- type: Blog
+  url: https://www.buena.com/blog
+- type: PrivacyPolicy
+  url: https://www.buena.com/datenschutz
+- type: Impressum
+  url: https://www.buena.com/impressum
+- type: Careers
+  url: https://www.buena.com/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
