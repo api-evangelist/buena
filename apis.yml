@@ -56,7 +56,7 @@ tags:
 - Company
 - Housing
 - Property Management
-- Real-Estate
+- Real Estate
 - PropTech
 - Germany
 - WEG Verwaltung
@@ -70,6 +70,7 @@ tags_raw:
 - Germany
 - WEG Verwaltung
 - Rental Management
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
